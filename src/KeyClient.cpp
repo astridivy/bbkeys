@@ -380,6 +380,7 @@ void KeyClient::initKeywords(KeywordMap& keywords) {
 
   keywords.insert(KeywordMap::value_type("togglegrabs", Action::toggleGrabs));
   keywords.insert(KeywordMap::value_type("chain", Action::chain));
+  keywords.insert(KeywordMap::value_type("cancelchain", Action::cancelChain));
 
   // the words associated with our high-level file labels
   keywords.insert(KeywordMap::value_type("begin", ConfigOpts::begin));
