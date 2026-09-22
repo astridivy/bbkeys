@@ -361,6 +361,12 @@ void KeyClient::initKeywords(KeywordMap& keywords) {
   keywords.insert(KeywordMap::value_type("prevwindow", Action::prevWindow));
   keywords.insert(KeywordMap::value_type("nextwindowonallworkspaces", Action::nextWindowOnAllWorkspaces));
   keywords.insert(KeywordMap::value_type("prevwindowonallworkspaces", Action::prevWindowOnAllWorkspaces));
+  keywords.insert(KeywordMap::value_type("nextwindowonallscreens", Action::nextWindowOnAllScreens));
+  keywords.insert(KeywordMap::value_type("prevwindowonallscreens", Action::prevWindowOnAllScreens));
+  keywords.insert(KeywordMap::value_type("nextwindowofclass", Action::nextWindowOfClass));
+  keywords.insert(KeywordMap::value_type("prevwindowofclass", Action::prevWindowOfClass));
+  keywords.insert(KeywordMap::value_type("nextwindowofclassonallworkspaces", Action::nextWindowOfClassOnAllWorkspaces));
+  keywords.insert(KeywordMap::value_type("prevwindowofclassonallworkspaces", Action::prevWindowOfClassOnAllWorkspaces));
 
   keywords.insert(KeywordMap::value_type("changeworkspace", Action::changeWorkspace));
   keywords.insert(KeywordMap::value_type("nextworkspace", Action::nextWorkspace));
